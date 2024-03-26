@@ -40,4 +40,9 @@ export MLFLOW_TRACKING_USERNAME=MOULIKA-SAGIRAJU
 export MLFLOW_TRACKING_PASSWORD=2d55d183e9a0f1f8f2891955dcf02f0e85483773 
 
 
+#DVC
+dvc init
 
+dvc repro (while using this command uncomment the evaluation.log_into_mlflow())
+
+dvc dag(flowchart)
